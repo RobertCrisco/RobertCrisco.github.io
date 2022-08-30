@@ -74,7 +74,7 @@ nav ul li a:hover::after{
 }
 
 .header-text h1 span {
-    color: #db2909b6;
+    color: #e27662b6;
 }
 
 /* -------------about---------------- */
@@ -119,4 +119,20 @@ nav ul li a:hover::after{
     font-weight: 500;
     cursor: pointer;
     position: relative;
+}
+
+.ccna {
+    text-decoration: none;
+}
+
+.tab-links::after{
+    content: '';
+    width: 0;
+    height: 3px;
+    background: #e27662b6;
+    position: absolute;
+    left: 0;
+    bottom: -8px;
+    transition: 0.5s;
+    
 }
