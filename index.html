@@ -43,33 +43,33 @@
                 <p>My education includes a college degree in Applied Technologies focusing on Customer Service Support, Network Administration, and Web Design and Support.  The classes include training from certifications courses for <span class="ccna">Cisco Certified Network Associate</span>, CompTIA Network+, CompTIA A+, and Microsoft Server System Engineer.</p> 
                 
             <div class="tab-titles">
-                <p class="tab-links active-link">Skills</p>
-                <p class="tab-links">Experience</p>
-                <p class="tab-links">Education</p>
-                <p class="tab-links">Certifications</p>
+                <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                <p class="tab-links" onclick="opentab('education')">Education</p>
+                <p class="tab-links" onclick="opentab('certification')">Certification</p>
             </div>
-            <div class="tab-contents active-tab">
+            <div class="tab-contents active-tab" id="skills">
                 <ul>
                     <li><span>Computer System Analysis</span><br>Incorporating new functionality into IT systems</li>
                     <li><span>Network Engineering</span><br>Maintaining computer networks and systems </li>
                     <li><span>System Administration</span><br>Administer network permissions and security policies</li>
                 </ul>
             </div>
-            <div class="tab-contents">
+            <div class="tab-contents"id="experience">
                 <ul>
                     <li><span>2022 - Current</span><br>Network Operations Center Specialist at DTI - State of Delaware</li>
                     <li><span>2016 - 2022</span><br>Network Lan Specialist (Contractor) at New Castle County Government</li>
                     <li><span>2011 - 2016</span><br>Helpdesk/Desktop Support (Contractor) at New Castle County Government</li>
                 </ul>
             </div>
-            <div class="tab-contents">
+            <div class="tab-contents"id="education">
                 <ul>
                     <li><span>2022(ongoing)</span><br>B.A.S. from BYU-Idaho</li>
                     <li><span>2022</span><br>Certificate at BYU-Pathway Worldwide </li>
                     <li><span>2012</span><br>A.A.S. from DTCC Delaware</li>
                 </ul>
             </div>
-            <div class="tab-contents">
+            <div class="tab-contents"id="certification">
                 <ul>
                     <li><span>CompTIA A+</li>
                     <li><span>CompTIA Network+</li>
@@ -80,6 +80,19 @@
             </div>
         </div>
     </div>
- </div>   
+ </div>  
+ 
+ <script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+         for(tablink of tablinks){
+            tablink.classList.remove("active-link")
+         }
+         for(tabcontents of tabcontents){
+            tabcontent.classList.remove("active-tab")
+         }
+    }
+ </script>
 </body>
 </html>
