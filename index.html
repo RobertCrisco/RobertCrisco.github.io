@@ -55,21 +55,21 @@
                     <li><span>System Administration</span><br>Administer network permissions and security policies</li>
                 </ul>
             </div>
-            <div class="tab-contents"id="experience">
+            <div class="tab-contents" id="experience">
                 <ul>
                     <li><span>2022 - Current</span><br>Network Operations Center Specialist at DTI - State of Delaware</li>
                     <li><span>2016 - 2022</span><br>Network Lan Specialist (Contractor) at New Castle County Government</li>
                     <li><span>2011 - 2016</span><br>Helpdesk/Desktop Support (Contractor) at New Castle County Government</li>
                 </ul>
             </div>
-            <div class="tab-contents"id="education">
+            <div class="tab-contents" id="education">
                 <ul>
                     <li><span>2022(ongoing)</span><br>B.A.S. from BYU-Idaho</li>
                     <li><span>2022</span><br>Certificate at BYU-Pathway Worldwide </li>
                     <li><span>2012</span><br>A.A.S. from DTCC Delaware</li>
                 </ul>
             </div>
-            <div class="tab-contents"id="certification">
+            <div class="tab-contents" id="certification">
                 <ul>
                     <li><span>CompTIA A+</li>
                     <li><span>CompTIA Network+</li>
@@ -93,11 +93,12 @@
  <script>
     var tablinks = document.getElementsByClassName("tab-links");
     var tabcontents = document.getElementsByClassName("tab-contents");
+
     function opentab(tabname){
          for(tablink of tablinks){
             tablink.classList.remove("active-link")
          }
-         for(tabcontents of tabcontents){
+         for(tabcontent of tabcontents){
             tabcontent.classList.remove("active-tab")
          }
          event.currentTarget.classList.add("active-link");
