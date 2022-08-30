@@ -74,5 +74,17 @@ nav ul li a:hover::after{
 }
 
 .header-text h1 span {
-    color: #e27662b6;
+    color: #db2909b6;
+}
+
+/* -------------about---------------- */
+#about{
+    padding: 80px 0;
+    color: #ababab;     
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
