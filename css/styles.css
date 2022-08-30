@@ -151,3 +151,11 @@ nav ul li a:hover::after{
     color: #e27662b6;
     font-size: 14px;
 }
+
+.tab-contents {
+    display: none;
+}
+
+.tab-contents.active-tab{
+    display: block;
+}
