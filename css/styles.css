@@ -77,9 +77,14 @@ nav ul li a:hover::after{
     color: #e27662b6;
 }
 
-.wdd311{
-    color: red;
-    Font-size: 30px;
+.header-right {
+    float: right;
+    padding-right: 20px;
+}
+
+.header-left {
+    float: left;
+    padding-left: 20px;
 }
 
 /* -------------about---------------- */
