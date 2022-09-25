@@ -98,7 +98,14 @@ wdd331 a {
      font-size: 18px;
     font-weight: 500;
     cursor: pointer;
+    color:gold;
 }
+
+ wdd331 a::after {
+     color: orange;
+}
+
+
 
 /* -------------about---------------- */
 #about{
