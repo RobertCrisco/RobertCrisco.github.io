@@ -93,7 +93,7 @@ wdd {
 
 }
 
-wdd331 a {
+a {
      text-decoration: none;
      font-size: 18px;
     font-weight: 500;
@@ -101,7 +101,7 @@ wdd331 a {
     color:gold;
 }
 
- wdd331 a::after {
+a::after {
      color: orange;
 }
 
