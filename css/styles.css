@@ -93,8 +93,11 @@ wdd {
 
 }
 
-wdd331 {
+wdd331 a {
      text-decoration: none;
+     font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
 }
 
 /* -------------about---------------- */
